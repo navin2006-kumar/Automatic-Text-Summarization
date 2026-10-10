@@ -152,16 +152,7 @@ news-research-text-summarizer/
 - Approximately 16 GB RAM recommended for local CPU inference.
 - Several gigabytes of free disk space for model weights and dependencies.
 
-### Step 1: Clone the repository
-
-```bash
-git clone https://github.com/YOUR-USERNAME/news-research-text-summarizer.git
-cd news-research-text-summarizer
-```
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
-### Step 2: Create a virtual environment
+### Step 1: Create a virtual environment
 
 **Windows PowerShell:**
 
@@ -176,14 +167,14 @@ If you use Command Prompt:
 .venv\Scripts\activate.bat
 ```
 
-### Step 3: Install dependencies
+### Step 2: Install dependencies
 
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the application
+### Step 3: Run the application
 
 ```bash
 streamlit run app.py
@@ -301,11 +292,7 @@ This project demonstrates the use of pre-trained Transformer models for abstract
 4. Hugging Face Transformers Documentation: https://huggingface.co/docs/transformers
 5. Streamlit Documentation: https://docs.streamlit.io/
 
-## 👨‍💻 Author
 
-**Navinkumar M**
-
-B.Tech Artificial Intelligence and Data Science
 
 GitHub: https://github.com/navin2006-kumar
 
